@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    }
+
+body {
+    font-family: Hanken Grotesk, sans-serif;
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.result-card {
+    background: linear-gradient(135deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.result-card h3 {
+    padding-top: 40px;
+    margin: 20px;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+
+.result-card p {
+    padding-top: 8px;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(252, 95%, 84%);
+
+
+}
+
+.score-circle {
+    border-radius: 50%;
+    background: linear-gradient(0,hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1));
+    color: #ffffff;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.result-card > h2 {
+    color:  hsl(241, 100%, 89%);
+    padding-bottom: 10px;
+
+}
+div > span {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+div > small {
+    font-size: 15px;
+    font-weight: 800;
+    color:  hsl(241, 100%, 89%);
+
+}
+.summary-card {
+    padding: 40px;
+    width: 300px;
+}
+
+.summary-card h2 {
+    margin-bottom: 20px;
+}
+
+.summary-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.summary-card li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.react{
+    background-color: #fff6f5;
+}
+.memo {
+    background-color:#fffbf2;
+}
+
+.verb {
+    background-color: #f2fbfa;
+}
+.visu {
+    background-color: #f3f3fd;
+}
+.reaction {
+    color:#cc5859;
+    margin-right: 100px;
+}
+
+.memory {
+    color: orange;
+    margin-right: 100px;
+
+}
+
+.verbal{
+    color:#40b191;
+    margin-right: 100px;
+
+}
+
+.visual {
+    color:#313ebb;
+    margin-right: 100px;
+
+}
+
+.summary-card .icon {
+    margin-right: 10px;
+}
+
+.summary-card button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: hsl(246.45deg 87.74% 58.43%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
